@@ -15,27 +15,17 @@
     
   </head>
   <body>
-    <div class="container">
-       <div class="forecast-app">
+    <div class="weather-app">
         <header>
           <form class="search-form" id="search-form">
             <input type="search"
-            placeholder="Enter a city.."
+            placeholder="Enter a city"
             required
             id="search-form-input"
             class="search-form-input"/>
             <input type="submit"
             value="Search"
             class="search-form-button"/>
-             <div class="col-3">
-              <button
-                class="btn btn-success w-100"
-                id="current-location-button"
-              >
-                Current
-              </button>
-            </div>
-          </div>
           </form>
         </header>
         <main>
@@ -52,9 +42,8 @@
             </div>
             <div class="weather-app-temperature-container">
               <div id="icon"></div>
-              <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" class="weather-app-icon">
               <div class="weather-app-temperature" id="temperature"></div>
-              <div class="weather-app-unit">°C |°F</div>
+              <div class="weather-app-unit">°C | °F</div>
             </div>
           </div>
         </main>
@@ -65,9 +54,10 @@
               >Open-source code, by Jodi Smith</a
             >
             <a href="https://github.com/JodiS34/Forecast-app-.git" target="_blank"
-              >hosted on Netlify
+              >hosted on Netlify</a>
 
       </footer>
     </div>
+    <script src="/index.html"></script>
   </body>
 </html>
